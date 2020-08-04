@@ -136,7 +136,7 @@ Bot.initEvents = function() {
 
 Bot.login = function() {
   keepAlive();
-	this.bot.login(Files.data.settings.token);
+	this.bot.login(process.env.TOKEN);
 };
 
 Bot.onReady = function() {
