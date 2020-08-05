@@ -8,7 +8,6 @@ const DBM = {};
 DBM.version = "1.6.8";
 
 const DiscordJS = DBM.DiscordJS = require("discord.js");
-const keepAlive = require('./server');
 
 if(DiscordJS.version < "12.0.0") {
 	console.log("This version of Discord Bot Maker requires Discord.JS v12.\nPlease use \"Project > Module Manager\" and \"Project > Reinstall Node Modules\" to update to Discord.JS v12.");
@@ -135,7 +134,6 @@ Bot.initEvents = function() {
 };
 
 Bot.login = function() {
-  keepAlive();
 	this.bot.login(process.env.TOKEN);
 };
 

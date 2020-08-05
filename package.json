@@ -6,9 +6,16 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "discord.js": "^12.2.0",
-    "express": "^4.17.1",
     "fstorm": "latest",
+    "hh-mm-ss": "^1.2.0",
     "jimp": "latest",
-    "node-cron": "^2.0.3"
-  }
+    "libsodium-wrappers": "latest",
+    "node-cron": "^2.0.3",
+    "opusscript": "latest",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "latest",
+    "ytpl": "^0.2.3",
+    "ytsr": "^0.1.20"
+  },
+  "is-music-bot": true
 }
