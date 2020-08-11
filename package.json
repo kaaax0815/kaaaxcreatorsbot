@@ -37,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/kaaax0815/kaaaxcreatorsbot/issues"
   },
+  "engines": {
+    "node": "12"
+  },
   "homepage": "https://github.com/kaaax0815/kaaaxcreatorsbot#readme"
 }
