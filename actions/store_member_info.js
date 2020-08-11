@@ -308,7 +308,7 @@ module.exports = {
 				break;
 			case 16:
 				if(mem.user) {
-					result = mem.user.displayAvatarURL({ dynamic: true });
+					result = mem.user.displayAvatarURL({ dynamic: true, format: "png", size: 4096 });
 				}
 				break;
 			case 17:
