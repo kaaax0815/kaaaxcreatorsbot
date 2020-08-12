@@ -247,6 +247,8 @@ module.exports = {
     const YTapi = Mods.require('simple-youtube-api')
     const ytsr = Mods.require('ytsr')
     const TimeFormat = Mods.require('hh-mm-ss')
+	
+	ytsr.do_warn_deprecate = false;
 
     if (input === undefined || input === '') {
       return console.log('Please provide a url or some keywords to search for.')

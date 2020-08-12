@@ -1,6 +1,6 @@
 {
   "name": "discord-bot-maker-bot",
-  "author": "Bernd Storath",
+  "author": "Robert Borghese",
   "main": "bot.js",
   "version": "0.0.2",
   "dependencies": {
@@ -20,7 +20,7 @@
   },
   "is-music-bot": true,
   "scripts": {
-    "start": "node bot.js"
+    "start": "./start.sh"
   },
   "description": "kaaaxcreators Community Discord Server Bot",
   "devDependencies": {},
@@ -28,17 +28,9 @@
     "type": "git",
     "url": "git+https://github.com/kaaax0815/kaaaxcreatorsbot.git"
   },
-  "keywords": [
-    "kaaaxcreators",
-    "kaaax0815",
-    "berndinatorenlp"
-  ],
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/kaaax0815/kaaaxcreatorsbot/issues"
-  },
-  "engines": {
-    "node": "12"
   },
   "homepage": "https://github.com/kaaax0815/kaaaxcreatorsbot#readme"
 }
