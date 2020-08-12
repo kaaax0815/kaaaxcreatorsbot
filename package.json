@@ -1,0 +1,36 @@
+{
+  "name": "discord-bot-maker-bot",
+  "author": "Robert Borghese",
+  "main": "bot.js",
+  "version": "0.0.2",
+  "dependencies": {
+    "analyrics": "^1.2.0",
+    "chalk": "^4.1.0",
+    "discord.js": "^12.2.0",
+    "fstorm": "latest",
+    "hh-mm-ss": "^1.2.0",
+    "jimp": "latest",
+    "libsodium-wrappers": "latest",
+    "node-cron": "^2.0.3",
+    "opusscript": "latest",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "latest",
+    "ytpl": "^0.2.3",
+    "ytsr": "^0.1.20"
+  },
+  "is-music-bot": true,
+  "scripts": {
+    "start": "./start.sh"
+  },
+  "description": "kaaaxcreators Community Discord Server Bot",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaaax0815/kaaaxcreatorsbot.git"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kaaax0815/kaaaxcreatorsbot/issues"
+  },
+  "homepage": "https://github.com/kaaax0815/kaaaxcreatorsbot#readme"
+}
