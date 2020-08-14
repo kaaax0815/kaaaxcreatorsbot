@@ -2,7 +2,7 @@
   "name": "discord-bot-maker-bot",
   "author": "Robert Borghese",
   "main": "bot.js",
-  "version": "0.0.2",
+  "version": "1.6.8",
   "dependencies": {
     "analyrics": "^1.2.0",
     "chalk": "^4.1.0",
