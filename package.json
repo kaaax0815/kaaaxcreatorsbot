@@ -15,8 +15,8 @@
     "opusscript": "latest",
     "simple-youtube-api": "^5.2.1",
     "ytdl-core": "latest",
-    "ytpl": "^0.2.3",
-    "ytsr": "^0.1.20"
+    "ytpl": "^0.2.4",
+    "ytsr": "^0.1.21"
   },
   "is-music-bot": true,
   "scripts": {
@@ -27,6 +27,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kaaax0815/kaaaxcreatorsbot.git"
+  },
+  "engines": {
+    "node": "12"
   },
   "license": "GPL-3.0",
   "bugs": {
