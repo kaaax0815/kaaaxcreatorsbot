@@ -319,7 +319,7 @@ module.exports = {
 				result = targetServer.region;
 				break;
 			case 5:
-				result = targetServer.iconURL({ dynamic: true });
+				result = targetServer.iconURL({ dynamic: true, format: "png", size: 4096 });
 				break;
 			case 6:
 				result = targetServer.verificationLevel;

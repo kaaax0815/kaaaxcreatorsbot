@@ -22,7 +22,7 @@ module.exports = {
 	//---------------------------------------------------------------------
 
 	subtitle: function(data) {
-		const time = ["Year", "Month", "Day of the Month", "Hour", "Minute", "Second", "Milisecond"];
+		const time = ["Year", "Month", "Day of the Month", "Hour", "Minute", "Second", "Milisecond", "Month Text"];
 		return `${time[parseInt(data.type)]}`;
 	},
 
