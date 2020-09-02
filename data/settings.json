@@ -1,1 +1,12 @@
-{"modules":{"discord.js":["",true],"fstorm":["",true],"jimp":["",true],"opusscript":["latest",true],"analyrics":["latest",true]},"client":"360825909114175498","tag":"§","token":"MzYwODI1OTA5MTE0MTc1NDk4.WcU7UA._xGUUdzK_BM9QZsBxFV71bg4nWQ","ownerId":"291942264366694410"}
+{
+    "modules": {
+        "discord.js": ["", true],
+        "fstorm": ["", true],
+        "jimp": ["", true],
+        "opusscript": ["latest", true],
+        "analyrics": ["latest", true]
+    },
+    "client": "360825909114175498",
+    "tag": "§",
+    "ownerId": "291942264366694410"
+}
